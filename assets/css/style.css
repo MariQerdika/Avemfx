@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header {
+    background-color: #1C1B24;  
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    justify-content: space-between;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.main-section{
+    background-image: url(../images/background.png);
+    height: 1160px;
+    background-attachment: fixed;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+.checkbtn {
+    display: none;
+}
+.checkbtn {
+    cursor: pointer;
+}
+.checkbtn span {
+    width: 25px;
+    height: 3px;
+    display: block;
+    background: #3b26e6;
+    margin: 4px 0;
+    cursor: pointer;
+}
+.LogInContent {
+    display: flex;
+}
+.LogInContent .btn {
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    transition: .3s;
+}
+.LogInContent .LogInContent-logInBtn {
+    border: 1px solid #ECECEC;
+    padding: 15px 30px;
+}
+.LogInContent .LogInContent-logInBtn:hover {
+    background-color: #2b2b2f;
+}
+
+.LogInContent .LogInContent-accountBtn {
+    background-color: #3B26E6;
+    padding: 16px 30px;
+}
+.LogInContent .LogInContent-accountBtn:hover {
+    background-color: #3622d4;
+} 
+.main-nav ul li a {
+    font-size: 20px;
+    color: #fff;
+}
+.MenuLogInContent.LogInContent  {
+    flex-direction: column;
+}
+.RightSmWrapper {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.SearchWrap input[type="text"] {
+    height: 55px;
+    font-size: 16px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: #ececec;
+    padding-right: 60px;
+    padding-left: 10px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    z-index: 3;
+    transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+    cursor: pointer;
+  }
+  .SearchWrap input[type="submit"]:focus {
+      outline: none;
+  }
+  .SearchWrap input[type="text"]:focus:hover {
+    border-bottom: 1px solid #BBB;
+  }
+  
+  .SearchWrap input[type="text"]:focus {
+    width: 300px;
+    z-index: 1;
+    border-bottom: 1px solid #BBB;
+    cursor: text;
+    background-color: #1c1b24;
+  }
+  .SearchWrap input[type="submit"] {
+    height: 56px;
+    width: 35px;
+    display: inline-block;
+    background: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -10000px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    transition: .4s ease;
+  }
+  
+  .SearchWrap input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+ .SearchWrap {
+     position: relative;
+     height: 55px;
+ }
+
+
+
+
+
+
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+        padding: 0;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}           
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+    #check {
+        display: none;
+    }
+    .logo {
+        order: -1;
+        margin-right: 60px;
+    }
+    .MenuLogInContent.LogInContent {
+        display: none;
+    }
+    .LogInContent .LogInContent-logInBtn {
+        margin-right: 30px;
+    }
+    .RightSmWrapper {
+        margin-left: auto;
+    }
+    .SearchWrap input[type="text"], .SearchWrap input[type="submit"] {
+        margin-right: 30px;
+    }
+}
+@media (min-width: 1800px){
+    .container {
+        max-width: 1640px;
+    }
+}
+
+@media (max-width: 1199.98px){
+    ul {
+        position: absolute;
+        width: 100%;
+        left:-100%;
+        transition: all .5s;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    #check {
+        display: none;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .mainLogInContent.LogInContent {
+        display: none;
+    }
+    .main-nav ul {
+        display: flex;
+    flex-direction: column;
+    background: #1c1b249e;
+    margin-top: 50px;
+    border-top: 1px solid grey;
+    padding: 20px 15px 40px;
+    }
+    .LogInContent .btn {
+        text-align: center;
+        width: 200px;
+        margin-bottom: 12px;
+}
+
+}
