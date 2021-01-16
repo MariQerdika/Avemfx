@@ -151,6 +151,7 @@ ul li{
  .SearchWrap {
      position: relative;
      height: 55px;
+     width:35px;
  }
 /* end header style */
 
@@ -159,7 +160,7 @@ h1 {
 }
 h2 {
     color:#ECECEC;
-    font-size: 32px;
+    font-size: 14px;
 }
 .sectionLogInBtn a {
     color: #ECECEC;
@@ -221,6 +222,9 @@ h2 {
     .SearchWrap input[type="text"], .SearchWrap input[type="submit"] {
         margin-right: 30px;
     }
+    h2 {
+        font-size: 32px;
+    }
     
 }
 @media (min-width: 1500px){
@@ -259,7 +263,8 @@ h2 {
     .main-nav ul {
         display: flex;
     flex-direction: column;
-    background: #1c1b249e;
+    background: #1c1b24f0;
+    height:100vh;
     margin-top: 50px;
     border-top: 1px solid grey;
     padding: 20px 15px 40px;
