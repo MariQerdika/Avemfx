@@ -193,31 +193,52 @@ h2 {
 .ProductsBoxRow-block {
     background-color: #040404;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 25px 30px 35px 30px;
     width: 100%;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+    transition: .3s;
 }
+.ProductsBoxRow-block:hover {
+    border: 1px solid  #040404;
+    background-color: #0a0a0a;
+}
+.ProductsBoxRow-block:hover span {
+    color: #3b26e6;
+}
+
 .block-title{
     color:#ECECEC;
     font-size: 28px;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid #ECECEC;
     padding-bottom: 20px;
     margin-bottom: 20px;
   
 }
 
 .product-text{
-    margin-bottom: 20px;
+    min-height: 76px;
+    max-height: 77px;
+    overflow: hidden;
     color:#ECECEC;
+    max-width: 225px;
 }
 .sectionLogInBtn {
     margin-bottom: 70px;
 }
 .products-title {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Roboto-Bold';
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
+}
+a.ProductsBoxRow-block span{
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    color:#9489F1;
+    transition: .3s;
 }
 @media (min-width: 576px){
     .container {
@@ -243,6 +264,10 @@ h2 {
     .ProductsBoxRow {
         display: flex;
         justify-content: space-between;
+    }
+    .products-title {
+        font-size: 32px;
+        margin-bottom: 30px;
     }
     #check {
         display: none;
