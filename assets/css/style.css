@@ -278,7 +278,7 @@ h2 {
     height: calc(100vh - 125px);
     margin-top: 50px;
     border-top: 1px solid grey;
-    padding: 20px 15px 40px;
+    padding: 0 15px 40px;
     }
     .LogInContent .btn {
         text-align: center;
