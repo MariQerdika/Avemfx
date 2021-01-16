@@ -26,7 +26,7 @@ header {
     background-image: url(../images/background.png);
     height: calc(100vh - 125px);
     background-attachment: fixed;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 ul {
@@ -157,15 +157,17 @@ ul li{
 /* end header style */
 
 h1 {
-    color: #fff;
+    color: #ECECEC;
 }
 h2 {
     color:#ECECEC;
     font-size: 14px;
+    margin-top: 20px;
+    opacity: .7;
 }
 .sectionLogInBtn a {
     color: #ECECEC;
-    font-size: 32px;
+    font-size: 20px;
     border-radius: 4px;
     display: inline-block;
     margin-top: 25px;
@@ -223,6 +225,9 @@ h2 {
     .SearchWrap input[type="text"], .SearchWrap input[type="submit"] {
         margin-right: 30px;
     }
+    h1 {
+        font-size: 42px;
+    }
     h2 {
         font-size: 32px;
     }
@@ -231,6 +236,9 @@ h2 {
 @media (min-width: 1500px){
     .main-section{
         padding-top: 200px;
+    }
+    .sectionLogInBtn a {
+        font-size: 32px;
     }
 }
 @media (min-width: 1800px){
