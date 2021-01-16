@@ -24,7 +24,7 @@ header {
 
 .main-section{
     background-image: url(../images/background.png);
-    height: 1160px;
+    height: calc(100vh - 125px);
     background-attachment: fixed;
     padding-top: 200px;
 }
