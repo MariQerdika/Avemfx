@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body {
     font-family: 'Roboto-Medium';
 }
@@ -224,9 +227,7 @@ h2 {
     color:#ECECEC;
     max-width: 225px;
 }
-.sectionLogInBtn {
-    margin-bottom: 70px;
-}
+
 .products-title {
     font-size: 22px;
     font-family: 'Roboto-Bold';
@@ -240,12 +241,15 @@ a.ProductsBoxRow-block span{
     color:#9489F1;
     transition: .3s;
 }
+h3.products-title {
+    padding-top: 100px;
+}
 @media (min-width: 576px){
     .container {
         max-width: 540px;
         padding: 0;
     }
-   
+  
 }
 @media (min-width: 768px){
     .container {
@@ -311,8 +315,8 @@ a.ProductsBoxRow-block span{
     .container {
         max-width: 1640px;
     }
-    .sectionLogInBtn {
-        margin-bottom: 130px;
+    #PopularProducts {
+        padding-top: 130px;
     }
     .ProductsBoxRow-block {
         width: 386px;
