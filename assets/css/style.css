@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body {
+    font-family: 'Roboto-Medium';
+}
 .container {
     width: 100%;
     margin: 0 auto;
@@ -163,6 +166,7 @@ h2 {
     color:#AAA9AC;
     font-size: 14px;
     margin-top: 20px;
+    font-family: 'Roboto-Regular';
 }
 .sectionLogInBtn a {
     color: #ECECEC;
@@ -286,4 +290,9 @@ h2 {
         margin-bottom: 12px;
 }
 
+}
+@media screen and (max-width: 1800px) and (min-width: 1200px) {
+    .main-nav ul li a, .LogInContent .btn {
+        font-size: 16px;
+    }
 }
