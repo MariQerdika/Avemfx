@@ -207,10 +207,14 @@ h2 {
     border: 1px solid  #040404;
     background-color: #0a0a0a;
 }
-.ProductsBoxRow .BoxCol:hover span {
+ 
+.ProductsBoxRow .BoxCol:hover span{
     color: #3b26e6;
 }
-
+.ProductsBoxRow .BoxCol:hover i.arrow {
+    border: solid #3b26e6;
+    border-width: 0 3px 3px 0;
+}
 .block-title {
     font-size: 28px;
     border-bottom: 2px solid #ECECEC;
@@ -223,6 +227,9 @@ h2 {
     min-height: 76px;
     max-height: 77px;
     overflow: hidden;
+    
+}
+.ProductsBoxRow .text-content   {
     max-width: 225px;
 }
 .products-title {
@@ -234,14 +241,18 @@ h2 {
 a.BoxCol span{
     display: block;
     text-align: right;
-    padding-right: 20px;
     color:#9489F1;
     transition: .3s;
+    font-size: 20px;
 }
 .account-btn {
     display: block;
     text-align: right;
-    padding-right: 20px;
+    font-size: 20px;
+}
+.account-btn i.arrow  {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
 }
 h3.products-title {
     padding-top: 100px;
@@ -361,6 +372,7 @@ input.form-control:focus {
 }
 .ProductsSection {
     background-color: #D9D9D9;
+    padding-bottom: 60px;
 }
 .min-header {
     padding: 70px 0 30px;
@@ -384,7 +396,7 @@ input.form-control:focus {
     border-radius: 4px;
     padding: 6px 0;
 }
-.ProductsSection .block-title{
+.mini-container .block-title{
     border-bottom: none;
     margin: 0;
     padding: 0;
@@ -419,7 +431,37 @@ input.form-control:focus {
 .separate-icon.ic_6 {
     background-image: linear-gradient(#EB6022, #C94D16);
 }
-
+.MediaQueriCol-6 {
+    width: 100%;
+    padding: 0 15px;
+}
+.MediaQueriCol-6 .BoxCol {
+    background-color: #2D2D2D;
+}
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    background: #D2D2D2;
+    border-radius: 4px;
+    padding: 14px 5px;
+}
+.portfolio-container img {
+    margin: 0 20px;
+}
+i.arrow {
+    border: solid #9489F1;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 6px;
+    transition: .3s;
+  }
+  
+  i.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
 @media (min-width: 576px){
     .container {
         max-width: 540px;
@@ -438,6 +480,9 @@ input.form-control:focus {
 @media (min-width: 992px){
     .container {
         max-width: 960px;
+    }
+    .MediaQueriCol-6 {
+        width: 50%;
     }
 }           
 @media (min-width: 1200px){
