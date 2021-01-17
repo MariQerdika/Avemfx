@@ -203,11 +203,11 @@ h2 {
     width: 100%;
     padding: 0 15px;
 }
-.BoxCol:hover {
+.ProductsBoxRow  .BoxCol:hover {
     border: 1px solid  #040404;
     background-color: #0a0a0a;
 }
-.BoxCol:hover span {
+.ProductsBoxRow .BoxCol:hover span {
     color: #3b26e6;
 }
 
@@ -324,10 +324,11 @@ input.form-control:focus {
     text-align: center;
     padding-top:60px;
 }
-.platform-title {
+.section-title {
     font-size: 22px;
     padding-top: 80px;
     padding-bottom: 60px;
+    text-align:center;
 }
 .plat-text span {
     display: inline-block;
@@ -335,6 +336,13 @@ input.form-control:focus {
     font-size: 20px;
     font-family: 'Roboto-Regular';
     color: #7B7B7B;
+}
+.section-text {
+    font-size: 20px;
+    font-family: 'Roboto-Regular';
+    color: #7B7B7B;
+    font-family: 'Roboto-Regular';
+    text-align: center;
 }
 .primary-btn {
     font-size: 20px;
@@ -351,6 +359,67 @@ input.form-control:focus {
 .primary-btn:hover {
     background:#f9f9f9;
 }
+.ProductsSection {
+    background-color: #D9D9D9;
+}
+.min-header {
+    padding: 70px 0 30px;
+    font-size: 20PX;
+    font-family: 'Roboto-Bold';
+}
+.mini-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ECECEC;
+    align-items: center;
+}
+.separate-icon {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Roboto Condensed';
+    width: 66px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px 0;
+}
+.ProductsSection .block-title{
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+.separate-icon.ic_01 {
+    background-image: linear-gradient( #F08888, #C25E5E);
+}
+.separate-icon.ic_02 {
+    background-image: linear-gradient(#D4CF37, #C98827);
+}
+.separate-icon.ic_03 {
+    background-image: linear-gradient(#D9D9D9, #5BB84D);
+}
+.separate-icon.ic_04 {
+    background-image: linear-gradient(#88B5F0, #88B5F0);
+}
+.separate-icon.ic_1 {
+    background-image: linear-gradient(#109C30, #0A7723);
+}
+.separate-icon.ic_2 {
+    background-image: linear-gradient(#5037D4, #3F27BB);
+}
+.separate-icon.ic_3 {
+    background-image: linear-gradient(#515750, #3E433E);
+}
+.separate-icon.ic_4 {
+    background-image: linear-gradient(#C19E60, #A4844C);
+}
+.separate-icon.ic_5 {
+    background-image: linear-gradient(#109C30, #0A7723);
+}
+.separate-icon.ic_6 {
+    background-image: linear-gradient(#EB6022, #C94D16);
+}
+
 @media (min-width: 576px){
     .container {
         max-width: 540px;
@@ -412,7 +481,7 @@ input.form-control:focus {
   .PlatformSectionLast {
       padding-top: 130px;
   }
-  .platform-title {
+  .section-title {
       font-size: 40px;
       padding-top: 100px;
   }
@@ -423,6 +492,9 @@ input.form-control:focus {
     font-size: 32px;
     padding: 16px 32px;
   }
+  .min-header {
+      font-size: 32px;
+  }
 }
 @media (min-width: 1500px){
     .main-section{
@@ -431,9 +503,8 @@ input.form-control:focus {
     .sectionLogInBtn a {
         font-size: 32px;
     }
-    .platform-title {
+    .section-title {
         font-size: 67px;
-        padding-top: 170px;
     }
 }
 @media (min-width: 1800px){
