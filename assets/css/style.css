@@ -198,6 +198,7 @@ h2 {
     border-radius: 4px;
     transition: .3s;
     width: 100%;
+    position: relative;
 }
 .col-12 {
     width: 100%;
@@ -445,6 +446,7 @@ input.form-control:focus {
     background: #D2D2D2;
     border-radius: 4px;
     padding: 14px 5px;
+    flex-wrap: wrap;
 }
 .portfolio-container img {
     margin: 0 20px;
@@ -462,6 +464,39 @@ i.arrow {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
+  .section-text {
+      text-align: center;
+  }
+  .section-text  span {
+      max-width: 784px;
+      display: inline-block;
+      font-size: 20px;
+      margin-bottom: 60px;
+  }
+  .MarketSection {
+      background-color: #EFEFEF;
+  }
+  .MarketSection .BoxCol {
+      padding: 0;
+      overflow: hidden;
+  }
+  .MarketSection .block-name {
+      font-size: 38px;
+      font-family: 'Roboto-Bold';
+      position: absolute;
+      bottom: 40px;
+      left: 30px;
+      color: #fff;
+
+  }
+  .MarketSection .BoxCol img {
+    transition: transform .5s ease;
+  }
+  .MarketSection .BoxCol:hover img {
+  transform: scale(1.1);
+   transition: transform .5s ease;
+  }
+
 @media (min-width: 576px){
     .container {
         max-width: 540px;
@@ -538,6 +573,9 @@ i.arrow {
     padding: 16px 32px;
   }
   .min-header {
+      font-size: 32px;
+  }
+  .section-text  span {
       font-size: 32px;
   }
 }
