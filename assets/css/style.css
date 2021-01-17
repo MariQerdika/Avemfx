@@ -316,19 +316,19 @@ input.form-control:focus {
     max-height: 146px;
 }
 .BoxCol.first-child {
-    background-image: url(../images/account-icon.png);
+    background-image: url(../images/time-icon.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: 93% 90%;
 }
 .BoxCol.second-child {
     background-image: url(../images/tools-icon.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: 93% 90%;
 }
 .BoxCol.third-child {
-    background-image: url(../images/prices-icon.png);
+    background-image: url(../images/arrow-icon.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: 93% 90%;
 }
 @media (min-width: 576px){
     .container {
@@ -449,6 +449,11 @@ input.form-control:focus {
         margin-bottom: 12px;
 }
 
+}
+@media (max-width: 1199.98px){
+    .block-title {
+        font-size: 24px;
+    }
 }
 @media screen and (max-width: 1800px) and (min-width: 1200px) {
     .main-nav ul li a, .LogInContent .btn {
