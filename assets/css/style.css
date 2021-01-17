@@ -322,7 +322,7 @@ input.form-control:focus {
 }
 .PlatformSectionLast {
     text-align: center;
-    padding-top: 60px;
+    padding-top:60px;
 }
 @media (min-width: 576px){
     .container {
