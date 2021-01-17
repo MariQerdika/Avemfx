@@ -18,6 +18,9 @@ body {
 .product-text {
     font-family: 'Roboto-Regular';
 }
+.LogInContent .LogInContent-logInBtn, .SearchWrap input[type="text"], h1,  .sectionLogInBtn a, .account-btn, .block-title, .text-content, .BoxCol.last-child-col .block-title     {
+    color: #ECECEC;
+}
 /* start header style */
 header {
     background-color: #1C1B24;  
@@ -69,7 +72,6 @@ ul li{
     transition: .3s;
 }
 .LogInContent .LogInContent-logInBtn {
-    border: 1px solid #ECECEC;
     padding: 15px 30px;
 }
 .LogInContent .LogInContent-logInBtn:hover {
@@ -110,7 +112,6 @@ ul li{
     display: inline-block;
     border: none;
     outline: none;
-    color: #ececec;
     padding-right: 60px;
     padding-left: 10px;
     width: 0px;
@@ -163,10 +164,6 @@ ul li{
      width:35px;
  }
 /* end header style */
-
-h1 {
-    color: #ECECEC;
-}
 h2 {
     color:#AAA9AC;
     font-size: 14px;
@@ -174,7 +171,6 @@ h2 {
     font-family: 'Roboto-Regular';
 }
 .sectionLogInBtn a {
-    color: #ECECEC;
     font-size: 20px;
     border-radius: 4px;
     display: inline-block;
@@ -215,8 +211,7 @@ h2 {
     color: #3b26e6;
 }
 
-.block-title{
-    color:#ECECEC;
+.block-title {
     font-size: 28px;
     border-bottom: 2px solid #ECECEC;
     padding-bottom: 20px;
@@ -224,11 +219,10 @@ h2 {
     font-weight: normal;
   
 }
-.text-content{
+.text-content {
     min-height: 76px;
     max-height: 77px;
     overflow: hidden;
-    color:#ECECEC;
     max-width: 225px;
 }
 .products-title {
@@ -248,7 +242,6 @@ a.BoxCol span{
     display: block;
     text-align: right;
     padding-right: 20px;
-    color: #ECECEC;
 }
 h3.products-title {
     padding-top: 100px;
@@ -282,12 +275,9 @@ h3.products-title {
 .BoxCol.last-child-col {
     background: #9489F1;
 }
-.BoxCol.last-child-col .block-title {
-color: #ececec;
-}
 input.form-control {
     width: 100%;
-    padding: 15px;
+    padding: 15px 10px;
     border: 1px solid #ECECEC;
     border-radius: 4px;
 }
@@ -330,6 +320,15 @@ input.form-control:focus {
     background-repeat: no-repeat;
     background-position: 93% 90%;
 }
+.PlatformSectionLast {
+    background-image: url(../images/platform.png);
+    background-repeat: no-repeat;
+    background-position: center 130px;
+    padding-top: 150px;
+    min-height: 525px;
+    padding-top: 130px;
+}
+
 @media (min-width: 576px){
     .container {
         max-width: 540px;
@@ -374,6 +373,7 @@ input.form-control:focus {
     }
     .LogInContent .LogInContent-logInBtn {
         margin-right: 30px;
+        border: 1px solid #ECECEC;
     }
     .RightSmWrapper {
         margin-left: auto;
@@ -453,6 +453,9 @@ input.form-control:focus {
 @media (max-width: 1199.98px){
     .block-title {
         font-size: 24px;
+    }
+    .PlatformSectionLast {
+        background-size: contain;
     }
 }
 @media screen and (max-width: 1800px) and (min-width: 1200px) {
