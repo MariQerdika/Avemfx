@@ -193,7 +193,7 @@ h2 {
   
 }
 
-.ProductsBoxRow-block {
+.BoxCol {
     background-color: #040404;
     display: inline-block;
     margin-bottom: 20px;
@@ -207,11 +207,11 @@ h2 {
     width: 100%;
     padding: 0 15px;
 }
-.ProductsBoxRow-block:hover {
+.BoxCol:hover {
     border: 1px solid  #040404;
     background-color: #0a0a0a;
 }
-.ProductsBoxRow-block:hover span {
+.BoxCol:hover span {
     color: #3b26e6;
 }
 
@@ -221,9 +221,10 @@ h2 {
     border-bottom: 2px solid #ECECEC;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    font-weight: normal;
   
 }
-.product-text{
+.text-content{
     min-height: 76px;
     max-height: 77px;
     overflow: hidden;
@@ -236,7 +237,7 @@ h2 {
     color: #fff;
     margin-bottom: 18px;
 }
-a.ProductsBoxRow-block span{
+a.BoxCol span{
     display: block;
     text-align: right;
     padding-right: 20px;
@@ -255,6 +256,28 @@ h3.products-title {
 .MediaQueriCol {
     padding: 0 15px;
     width: 100%;
+}
+.PlatformSection {
+    background-color: #EFEFEF;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+.PlatformSection .BoxCol {
+    background-color: #fff;
+    border: 1px solid #ECECEC;
+}
+.PlatformSection .block-title {
+    color: #2D2D2D;
+}
+.PlatformSection .text-content{
+    color: #7B7B7B;
+    max-width: inherit;
+}
+.BoxCol.last-child-col {
+    background: #9489F1;
+}
+.BoxCol.last-child-col .block-title {
+color: #ececec;
 }
 @media (min-width: 576px){
     .container {
