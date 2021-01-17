@@ -326,7 +326,7 @@ input.form-control:focus {
     background-position: center 130px;
     padding-top: 150px;
     min-height: 525px;
-    padding-top: 130px;
+    padding-top: 60px;
 }
 
 @media (min-width: 576px){
@@ -387,7 +387,9 @@ input.form-control:focus {
     h2 {
         font-size: 32px;
     }
-    
+    .PlatformSectionLast {
+        padding-top: 130px;
+    }
     
 }
 @media (min-width: 1500px){
