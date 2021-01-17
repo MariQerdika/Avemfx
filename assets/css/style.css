@@ -475,6 +475,7 @@ i.arrow {
   }
   .MarketSection {
       background-color: #EFEFEF;
+      padding-bottom: 60px;
   }
   .MarketSection .BoxCol {
       padding: 0;
@@ -496,7 +497,32 @@ i.arrow {
   transform: scale(1.1);
    transition: transform .5s ease;
   }
+.SectionAvemfx {
+    background-image: url(../images/avemfx-background.png);
+    height: 1280px;
+    background-attachment: fixed;
+}
+.LastSection {
+    background-color: #EFEFEF;
+}
+.LastSection-circle{
+    border: 1px solid #9489F1;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    text-align: center;
+    margin-bottom: 60px;
 
+}
+
+.LastSection .row {
+    justify-content: center;
+}
 @media (min-width: 576px){
     .container {
         max-width: 540px;
@@ -519,6 +545,10 @@ i.arrow {
     .MediaQueriCol-6 {
         width: 50%;
     }
+    .LastSection .row {
+        justify-content: space-between;
+    }
+    
 }           
 @media (min-width: 1200px){
     .container {
@@ -577,6 +607,10 @@ i.arrow {
   }
   .section-text  span {
       font-size: 32px;
+  }
+  .LastSection-circle {
+      width: 424px;
+      height: 424px;
   }
 }
 @media (min-width: 1500px){
@@ -661,5 +695,9 @@ i.arrow {
     }
     .block-title {
         font-size: 18px;
+    }
+    .LastSection-circle {
+        width: 360px;
+        height: 360px;
     }
 }
