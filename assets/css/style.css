@@ -244,6 +244,12 @@ a.BoxCol span{
     color:#9489F1;
     transition: .3s;
 }
+.account-btn {
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    color: #ECECEC;
+}
 h3.products-title {
     padding-top: 100px;
 }
@@ -278,6 +284,51 @@ h3.products-title {
 }
 .BoxCol.last-child-col .block-title {
 color: #ececec;
+}
+input.form-control {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+}
+input.form-control:focus {
+    outline: none;
+}
+.BoxCol.last-child-col .block-title {
+    margin-bottom: 15px;
+}
+.form-group input.form-control {
+    margin-top:15px;
+    width: 45%;
+}
+.MediaQueriCol .form-group  {
+    margin-bottom: 20px;
+}
+.MediaQueriCol .form-group {
+    display: flex;
+    justify-content: space-between;
+}
+.PlatformSection .BoxCol {
+    padding: 13px 30px 24px 30px;
+}
+.PlatformSection .text-content {
+    min-height: 145px;
+    max-height: 146px;
+}
+.BoxCol.first-child {
+    background-image: url(../images/account-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.BoxCol.second-child {
+    background-image: url(../images/tools-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.BoxCol.third-child {
+    background-image: url(../images/prices-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 @media (min-width: 576px){
     .container {
@@ -362,6 +413,7 @@ color: #ececec;
         background-size: inherit;
     }
 }
+    
 
 @media (max-width: 1199.98px){
     ul {
@@ -403,6 +455,6 @@ color: #ececec;
         font-size: 16px;
     }
     .block-title {
-        font-size: 26px;
+        font-size: 18px;
     }
 }
