@@ -39,13 +39,15 @@ header {
     padding-top: 70px;
     padding-bottom: 80px;
 }
-
-ul {
+.main-nav {
+    z-index: 1000;
+}
+.main-nav ul {
     display: flex;
     justify-content: center;
 }
-ul li{
-    padding: 10px;
+.main-nav ul li{
+    padding: 10px 16px;
     list-style: none;
 }
 .checkbtn {
@@ -164,11 +166,12 @@ ul li{
      width:35px;
  }
 /* end header style */
-h2 {
+.second-title {
     color:#AAA9AC;
     font-size: 14px;
     margin-top: 20px;
     font-family: 'Roboto-Regular';
+    max-width: 250px;
 }
 .sectionLogInBtn a {
     font-size: 20px;
@@ -585,7 +588,7 @@ i.arrow {
     h1 {
         font-size: 42px;
     }
-    h2 {
+    .second-title {
         font-size: 32px;
     }
   .PlatformSectionLast {
@@ -612,6 +615,9 @@ i.arrow {
       width: 424px;
       height: 424px;
   }
+  .second-title {
+    max-width: 550px;
+}
 }
 @media (min-width: 1500px){
     .main-section{
