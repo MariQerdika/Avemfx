@@ -707,4 +707,8 @@ i.arrow {
         width: 360px;
         height: 360px;
     }
+    .main-nav ul li {
+        padding: 10px;
+        list-style: none;
+    }
 }
