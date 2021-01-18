@@ -75,6 +75,7 @@ header {
 }
 .LogInContent .LogInContent-logInBtn {
     padding: 15px 30px;
+    border: 1px solid #ECECEC;
 }
 .LogInContent .LogInContent-logInBtn:hover {
     background-color: #2b2b2f;
