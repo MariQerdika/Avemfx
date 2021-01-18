@@ -514,7 +514,7 @@ i.arrow {
 
 }
 .about-section--text {
-    font-size: 20px;
+    font-size: 16px;
 }
 .LastSection .row {
     justify-content: center;
@@ -576,7 +576,9 @@ h5 {
     .container {
         max-width: 1140px;
     }
-    
+    .about-section--text {
+        font-size: 20px;
+    }
     .MediaQueriCol{
         width: 25%;
     }
