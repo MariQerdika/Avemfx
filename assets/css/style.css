@@ -31,7 +31,9 @@ header {
     height: 125px;
     justify-content: space-between;
 }
-
+a.logo img {
+    width: 127px;
+}
 
 
 .main-section{
