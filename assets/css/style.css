@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-.product-text {
+.product-text, .about-section--text {
     font-family: 'Roboto-Regular';
 }
 .LogInContent .LogInContent-logInBtn, .SearchWrap input[type="text"], h1,  .sectionLogInBtn a, .account-btn, .block-title, .text-content, .BoxCol.last-child-col .block-title     {
@@ -493,7 +493,7 @@ i.arrow {
   }
 .SectionAvemfx {
     background-image: url(../images/avemfx-background.png);
-    height: 1280px;
+    height: 955px;
     background-attachment: fixed;
 }
 .LastSection {
@@ -513,9 +513,37 @@ i.arrow {
     margin-bottom: 60px;
 
 }
-
+.about-section--text {
+    font-size: 20px;
+}
 .LastSection .row {
     justify-content: center;
+}
+.about-section {
+    max-width: 564px;
+    border-radius: 10px;
+    padding: 50px 30px;
+    background-color: #292b3091;
+    color: #fff;
+}
+.SectionAvemfx {
+    padding-top: 35px;
+}
+.about-section--head {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 50px;
+}
+.about-section--title {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+h5 {
+    font-weight: normal;
+}
+.about-section--block {
+    margin-bottom: 40px;
 }
 @media (min-width: 576px){
     .container {
