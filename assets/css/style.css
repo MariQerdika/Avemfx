@@ -179,9 +179,9 @@ a.logo img {
     padding: 19px 30px;
 }
 .sectionLogInBtn .secPlatformBtn-platformBtn {
-    background-color:#84828370;
     border: 1px solid #ECECEC;
     padding: 18px 30px;  
+    backdrop-filter: blur(5px) brightness(1.5);
 }
 .BoxCol {
     background-color: #040404;
