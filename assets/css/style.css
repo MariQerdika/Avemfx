@@ -233,7 +233,7 @@ a.logo img {
     color: #fff;
     margin-bottom: 18px;
 }
-a.BoxCol span{
+.BoxCol a{
     display: block;
     text-align: right;
     color:#9489F1;
@@ -439,11 +439,15 @@ input.form-control:focus {
     margin-bottom: 35px;
     background: #D2D2D2;
     border-radius: 4px;
-    padding: 14px 5px;
-    flex-wrap: wrap;
+    height: 50px;
+    align-items: center;
 }
 .portfolio-container img {
-    margin: 0 20px;
+    width: 100%;
+}
+.portfolio-container a {
+    display: block;
+    margin: 0 10px;
 }
 i.arrow {
     border: solid #9489F1;
